@@ -4,7 +4,7 @@ AI system that **automatically analyzes datasets and generates business insights
 
 Upload a CSV → the system cleans the data, performs analysis, builds charts, and explains insights in plain English.
 
-![Architecture](architecture.png)
+![Architecture](agentic_bi_architecture.png)
 
 ---
 
