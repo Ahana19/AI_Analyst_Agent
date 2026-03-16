@@ -1,16 +1,89 @@
 # Agentic Business Intelligence System
 
-An AI-powered multi-agent system that automatically analyzes datasets, generates business insights using LLMs, and builds interactive dashboards — all from a simple CSV upload.
-What This Does
-Upload any CSV file and the system automatically:
+AI system that automatically analyzes datasets and generates business insights using LLM agents.
 
-✅ Cleans the data — removes duplicates, fixes nulls, corrects data types
-✅ Analyses it — statistics, correlations, trends, anomalies
-✅ Generates insights — plain English business recommendations via LLM
-✅ Builds a dashboard — interactive Plotly charts auto-generated
-✅ Enables Q&A — ask natural language questions about your data (RAG)
-✅ Exports reports — download a PDF summary
+Upload a CSV → the system cleans the data, performs analysis, builds charts, and explains insights in plain English.
 
-Architecture
-The system uses a multi-agent pipeline orchestrated by LangChain:
+🚀 Features
+
+Upload any CSV dataset
+
+Automatic data cleaning
+
+Statistical analysis and trend detection
+
+AI-generated business insights
+
+Interactive dashboards with charts
+
+Natural language Q&A on data (RAG)
+
+PDF report export
+
+🛠 Tech Stack
+
+Python
+
+Streamlit – UI dashboard
+
+LangChain – agent orchestration
+
+LLMs – Gemini / Groq / Ollama
+
+ChromaDB – vector database for RAG
+
+Pandas & NumPy – data processing
+
+Plotly – visualizations
+
+📁 Project Structure
+Agentic_BI/
+│
+├── app.py
+├── agents/
+│   ├── orchestrator.py
+│   ├── cleaner_agent.py
+│   ├── analyst_agent.py
+│   ├── insight_agent.py
+│   └── visualizer_agent.py
+│
+├── rag/
+│   └── vector_store.py
+│
+├── utils/
+│   └── llm_factory.py
+│
+├── requirements.txt
+└── README.md
+⚡ Run Locally
+
+Clone the repository
+
+git clone https://github.com/Ahana19/AI_Analyst_Agent.git
+cd AI_Analyst_Agent
+
+Install dependencies
+
+pip install -r requirements.txt
+
+Run the app
+
+streamlit run app.py
+
+Open in browser:
+
+http://localhost:8501
+🎯 How It Works
+
+Upload a dataset (CSV)
+
+The system cleans and analyzes the data
+
+AI generates business insights
+
+Charts and dashboard are created automatically
+
+Users can ask questions about the data
+
+t pipeline orchestrated by LangChain:
 ![Dashboard]("C:\Users\KIIT\OneDrive\Desktop\Agentic_BI\agentic_bi_architecture.png")
