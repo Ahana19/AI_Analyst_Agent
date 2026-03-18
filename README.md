@@ -32,3 +32,12 @@ Upload a CSV → the system cleans the data, performs analysis, builds charts, a
 
 ---
 
+## 🎯 How It Works
+
+1. Upload a dataset (CSV)  
+2. The system automatically cleans and preprocesses the data  
+3. Performs statistical analysis and detects trends  
+4. Generates business insights using LLMs  
+5. Creates interactive charts and dashboards  
+6. Enables natural language Q&A using RAG  
+
