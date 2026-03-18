@@ -31,10 +31,4 @@ Upload a CSV → the system cleans the data, performs analysis, builds charts, a
 - **Plotly** – visualizations  
 
 ---
-ts.txt
-3. Run the application
-streamlit run app.py
 
-Open in browser:
-
-http://localhost:8501
