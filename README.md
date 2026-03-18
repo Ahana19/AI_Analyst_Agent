@@ -33,3 +33,39 @@ Upload a CSV → the system cleans the data, performs analysis, builds charts, a
 ---
 
 ## 📁 Project Structure
+Agentic_BI/
+│
+├── app.py
+├── agents/
+│ ├── orchestrator.py
+│ ├── cleaner_agent.py
+│ ├── analyst_agent.py
+│ ├── insight_agent.py
+│ └── visualizer_agent.py
+│
+├── rag/
+│ └── vector_store.py
+│
+├── utils/
+│ └── llm_factory.py
+│
+├── requirements.txt
+└── README.md
+
+
+---
+
+## ⚡ Run Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Ahana19/AI_Analyst_Agent.git
+cd AI_Analyst_Agent
+2. Install dependencies
+pip install -r requirements.txt
+3. Run the application
+streamlit run app.py
+
+Open in browser:
+
+http://localhost:8501
